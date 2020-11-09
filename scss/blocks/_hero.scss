@@ -1,0 +1,50 @@
+.hero {
+padding-top: 74px;
+padding-bottom: 635px;
+}
+
+.hero{
+  background-image: url("../../img/Rectangle.png"), url("../../img/cars.png");
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center 375px, center 750px;
+
+}
+
+.hero__title {
+  max-width: 818px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+color: #212B31;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 30px;
+}
+.hero__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  .hero{
+    background-image: url("../../img/Rectangle@2x.png"), url("../../img/cars@2x.png");
+  }
+}
+@media only screen and (max-width: 1120px){
+  .hero{
+background-size: 100% ;
+  }
+}

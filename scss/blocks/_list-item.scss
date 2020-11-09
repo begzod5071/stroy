@@ -1,0 +1,20 @@
+.list-item{
+  white-space: nowrap;
+&--active .list-item__link{
+  color: #036FC7;
+}
+&:last-child{
+  margin-right: 20px;
+}
+&:not(:last-child){
+  margin-right: 22px;
+}
+}
+.list-item__link{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #72787D;
+}
